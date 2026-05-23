@@ -42,4 +42,4 @@ data_received = requests.get(url,params=data)
 
 json_data = data_received.json()
 print(json_data)
-print("City:",json_data["name"])
+# print("City:",json_data["name"])

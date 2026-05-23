@@ -22,7 +22,7 @@ def home():
     json_data = data_received.json()
 
     return f"""
-    <h1> Weather Data for {json_data["name"]} </h1>
+    <h1> Weather Data for {city} </h1>
     <p> The temperature is {json_data['main']['temp']} </p>
     <p> The humidity is {json_data['main']['humidity']}% </p>
     <p> The wind speed is {json_data['wind']['speed']} </p>
